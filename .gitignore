@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
 
-int maie()//print !10
+int main()//print !10
 {
-    int x = 10;
+    int x = 10; //factorial of 10
     int y = 1;
     int z = 1;
 
