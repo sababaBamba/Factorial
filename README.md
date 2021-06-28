@@ -1,2 +1,2 @@
 # Factorial
-Factorial of 10
+calculate any factorial number
