@@ -1,52 +1,19 @@
-# Prerequisites
-*.d
+#include <stdio.h>
+#include <stdlib.h>
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+int maie()//print !10
+{
+    int x = 10;
+    int y = 1;
+    int z = 1;
 
-# Linker output
-*.ilk
-*.map
-*.exp
+    while(y < x)
+    {
+        z *= y;
+        y++;
+    }
+    printf("%d" , z);
 
-# Precompiled Headers
-*.gch
-*.pch
+    return 0;
+}
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
